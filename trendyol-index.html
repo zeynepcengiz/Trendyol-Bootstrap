@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trendyol Benzeri Anasayfa</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .navbar { background-color: #f8f8f8; }
+    .navbar .nav-link { color: #333; font-weight: 500; }
+    .category-icons img { width: 50px; height: 50px; }
+    .category-btn { background-color: #f8f9fa; padding: 10px; border-radius: 5px; font-weight: 500; }
+    .category-btn.active { background-color: #ffc107; }
+    .product-card { border: 1px solid #f0f0f0; border-radius: 8px; overflow: hidden; }
+    .product-card img { width: 100%; }
+    .product-info { padding: 10px; }
+    .product-title { font-size: 1rem; font-weight: bold; }
+    .product-price { color: #ff5722; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Trendyol Clone</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Tüm Kategoriler</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Kadın</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Erkek</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Anne & Çocuk</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Ev & Yaşam</a></li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Ürün, kategori veya marka ara">
+        <button class="btn btn-outline-dark" type="submit">Ara</button>
+      </form>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Giriş Yap</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Favorilerim</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Sepetim</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container my-3">
+    <img src="OIP (3).jpg" class="img-fluid" alt="Banner">
+  </div>
+
+  <div class="container my-4">
+    <div class="d-flex justify-content-between category-icons">
+      <div class="text-center">
+        <img src="R.jpg" alt="Kategori 1">
+        <p>Sana Özel</p>
+      </div>
+      <div class="text-center">
+        <img src="OIP (1).jpg" alt="Kategori 2">
+        <p>Sen De Al!</p>
+      </div>
+      <div class="text-center">
+        <img src="OIP (2).jpg" alt="Kategori 3">
+        <p>Avantajlı Ürünler</p>
+      </div>
+      <div class="text-center">
+        <img src="OIP (4).jpg" alt="Kategori 4">
+        <p>İndirim Kuponlarım</p>
+      </div>
+      <div class="text-center">
+        <img src="R (1).jpg" alt="Kategori 5">
+        <p>Kişisel Bakım</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container d-flex justify-content-around my-3">
+    <button class="btn category-btn">Sepete En Çok Eklenenler</button>
+    <button class="btn category-btn active">En Çok Öne Çıkanlar</button>
+    <button class="btn category-btn">Flaş Ürünler</button>
+  </div>
+
+  <div class="container my-4">
+    <h4>Popüler Ürünler</h4>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x200" alt="Ürün 1">
+          <div class="product-info">
+            <p class="product-title">Ürün Adı 1</p>
+            <p class="product-price">₺120,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x200" alt="Ürün 2">
+          <div class="product-info">
+            <p class="product-title">Ürün Adı 2</p>
+            <p class="product-price">₺150,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x200" alt="Ürün 3">
+          <div class="product-info">
+            <p class="product-title">Ürün Adı 3</p>
+            <p class="product-price">₺250,00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x200" alt="Ürün 4">
+          <div class="product-info">
+            <p class="product-title">Ürün Adı 4</p>
+            <p class="product-price">₺200,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x200" alt="Ürün 5">
+          <div class="product-info">
+            <p class="product-title">Ürün Adı 5</p>
+            <p class="product-price">₺450,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x200" alt="Ürün 6">
+          <div class="product-info">
+            <p class="product-title">Ürün Adı 6</p>
+            <p class="product-price">₺800,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x200" alt="Ürün 7">
+          <div class="product-info">
+            <p class="product-title">Ürün Adı 7</p>
+            <p class="product-price">₺750,00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/200x200" alt="Ürün 8">
+          <div class="product-info">
+            <p class="product-title">Ürün Adı 8</p>
+            <p class="product-price">₺150,00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
